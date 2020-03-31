@@ -1,0 +1,30 @@
+@import '../../styles/variables';
+@import '../../styles/base';
+
+body {
+  padding: 3em 2em;
+  width: 100%;
+  max-width: 550px;
+  margin: auto;
+
+  img {
+    width: 100%;
+  }
+
+  .text-container {
+    margin: 2em 0;
+
+    h1 {
+      margin: 0.25em 0;
+      text-decoration: underline;
+    }
+  }
+
+  h2 {
+    display: inline;
+  }
+
+  ol {
+    margin-top: 0.5em;
+  }
+}
